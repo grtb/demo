@@ -17,7 +17,7 @@ public class CalculatorControllerTest {
         String result = calculator.sum(a, b);
 
         // then
-        assertEquals("5", result);
+        assertEquals("3", result);
     }
 
 }
