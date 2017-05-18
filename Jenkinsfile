@@ -23,13 +23,13 @@ pipeline {
 
          stage('CodeCoverage') {
                               steps {
-                                   Echo 'Jacoco'
+                                   Echo ''
                               }
                          }
 
         stage('CodeAnalysis') {
                               steps {
-                                   Echo 'CheckStyle'
+                                   Echo ''
                               }
                          }
     }
