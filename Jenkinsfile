@@ -18,5 +18,17 @@ pipeline {
                           sh './gradlew build'
                      }
                 }
+
+         stage('CodeCoverage') {
+                              steps {
+                                   Echo 'Jacoco'
+                              }
+                         }
+
+        stage('CodeAnalysis') {
+                              steps {
+                                   Echo 'CheckStyle'
+                              }
+                         }
     }
 }
