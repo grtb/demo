@@ -21,16 +21,6 @@ pipeline {
                      }
                 }
 
-         stage('CodeCoverage') {
-                              steps {
-                                   Echo ''
-                              }
-                         }
 
-        stage('CodeAnalysis') {
-                              steps {
-                                   Echo ''
-                              }
-                         }
     }
 }
